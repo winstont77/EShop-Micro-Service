@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "dB7CaUQSEmVKvROwAdJvQ54Q/7+xWL4hnnUNG0JTUJ9jHdzUJDJe5o+E+kAtDsapVMZLlyo6C96kd1kG/3S5Kg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\WinstonHsu\\OneDrive\\Desktop\\Github\\EShopMicroservice\\src\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\carter\\8.1.0\\carter.8.1.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

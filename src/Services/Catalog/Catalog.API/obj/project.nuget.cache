@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "vd+upnJf8FaEqqKWXu3IUCD2JD/UrVWOD63sGbniQXT9wt1SEyjYN8tNGAGlSbbqVrBh6WSULUhjSIDsdbx4kA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\WinstonHsu\\OneDrive\\Desktop\\Github\\EShopMicroservice\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\carter\\8.1.0\\carter.8.1.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
