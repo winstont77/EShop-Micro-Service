@@ -1,5 +1,4 @@
-﻿
-namespace Catalog.API.Models.Products.GetProducts
+﻿namespace Catalog.API.Models.Products.GetProducts
 {
     public record GetProductsQuery() : IQuery<GetProductsResult>;
 
