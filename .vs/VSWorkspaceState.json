@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\Services",
+    "\\src\\Services\\Catalog",
+    "\\src\\Services\\Catalog\\Catalog.API",
+    "\\src\\Services\\Catalog\\Catalog.API\\Models",
+    "\\src\\Services\\Catalog\\Catalog.API\\Models\\Products"
   ],
-  "SelectedNode": "\\src\\eshop-microservices.sln",
+  "SelectedNode": "\\src\\Services\\Catalog\\Catalog.API\\Models\\Products\\GetProducts",
   "PreviewInSolutionExplorer": false
 }
