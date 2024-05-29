@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9qBPo9pt7LJlcITZhjJ7zJSaET6CAnnzvvrIdSck8EEwsKjCJQstiToC75OZzD3lA8BoPaykCkFXV1t99CbcsQ==",
+  "dgSpecHash": "d96M8bOnjFlrwAlfdbzC5jfhaSMTRqRSHKW8qoNyrUHSyUZUa0L/DR3wl7W7YlNciSWMdjFsGWyNnr0HqZe9pQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\WinstonHsu\\OneDrive\\Desktop\\Github\\EShopMicroservice\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\carter\\8.1.0\\carter.8.1.0.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\fastexpressioncompiler\\4.1.0\\fastexpressioncompiler.4.1.0.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.1\\fluentvalidation.dependencyinjectionextensions.11.9.1.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\jasperfx.codegeneration\\3.5.3\\jasperfx.codegeneration.3.5.3.nupkg.sha512",

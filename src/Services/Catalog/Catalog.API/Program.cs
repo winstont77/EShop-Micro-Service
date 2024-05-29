@@ -16,11 +16,15 @@ builder.Services.AddMarten(opts =>
     opts.Connection(builder.Configuration.GetConnectionString("CatalogDb")!);
 }).UseLightweightSessions();
 
+builder.Services.AddExceptionHandler<CustomExceptionHandler>();
+
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 
 // Configure the HTTP request pipeline.
 app.MapCarter();
+
+app.UseExceptionHandler(option => { });
 
 app.Run();
