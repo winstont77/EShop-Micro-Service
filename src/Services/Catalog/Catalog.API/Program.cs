@@ -1,13 +1,15 @@
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddCarter();
-
 // Give the type of program.cs that means this class and give the assembly name when registering services into mediator.
 // Add service to the container.
 builder.Services.AddMediatR(config =>
 {
     config.RegisterServicesFromAssembly(typeof(Program).Assembly);
+    config.AddOpenBehavior(typeof(ValidationBehavior<,>));
 });
+builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
+
+builder.Services.AddCarter();
 
 builder.Services.AddMarten(opts =>
 {
