@@ -27,6 +27,7 @@ services:
     #   - "8081:8081"
     # depends_on:
     #   - catalogdb
+    # entrypoint: ["./wait-for-it.sh", "catalogdb:5432", "--", "dotnet", "Catalog.API.dll"]
 
 volumes:
   postgres_catalog:
