@@ -9,6 +9,7 @@ This project will use e-commerce to demonstrate microservices. In daily life, e-
 
 ## System architecture
 
+![Image](https://i.imgur.com/jfWWRos.png)
 
 ## Requirement
 
