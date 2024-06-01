@@ -7,7 +7,7 @@ As time goes by, the MVC architecture seems no longer to be the best choice for 
 This project will use e-commerce to demonstrate microservices. In daily life, e-commerce is a very relevant topic. Especially during special holidays, e-commerce websites often face several times the usual traffic and concurrency. Therefore, I personally believe that e-commerce is an excellent research subject.
 
 
-# System architecture
+## System architecture
 
 
 ## Requirement
