@@ -8,13 +8,13 @@ This project will use e-commerce to demonstrate microservices. In daily life, e-
 
 ## Requirement
 
--Language
-  -C# 12
--Famework
-  -.net core 8
--Database
-  -Postgres
--Library
-  -MediatR
-  -Marten
-  -Mapster
+- Language
+  - C# 12
+- Famework
+  - .net core 8
+- Database
+  - Postgres
+- Library
+  - MediatR
+  - Marten
+  - Mapster
