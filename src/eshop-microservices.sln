@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{52685E68-935A-486A-8E81-2729B616A77B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{A2D73FC8-959B-4500-8D8E-F53A692D776A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{A2D73FC8-959B-4500-8D8E-F53A692D776A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{270A5259-3818-49E0-8FC2-3C06762807C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{9D671469-454F-42EC-9107-3C1640285525}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{9D671469-454F-42EC-9107-3C1640285525}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9851EE51-A498-45F4-8614-E142F937EAFD}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AEF3A292-2A27-4BBB-BC14-21021E750E45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{9D671469-454F-42EC-9107-3C1640285525}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D671469-454F-42EC-9107-3C1640285525}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D671469-454F-42EC-9107-3C1640285525}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9851EE51-A498-45F4-8614-E142F937EAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9851EE51-A498-45F4-8614-E142F937EAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9851EE51-A498-45F4-8614-E142F937EAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9851EE51-A498-45F4-8614-E142F937EAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF3A292-2A27-4BBB-BC14-21021E750E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF3A292-2A27-4BBB-BC14-21021E750E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF3A292-2A27-4BBB-BC14-21021E750E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF3A292-2A27-4BBB-BC14-21021E750E45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

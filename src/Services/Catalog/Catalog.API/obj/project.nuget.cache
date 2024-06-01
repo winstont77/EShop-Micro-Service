@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "d96M8bOnjFlrwAlfdbzC5jfhaSMTRqRSHKW8qoNyrUHSyUZUa0L/DR3wl7W7YlNciSWMdjFsGWyNnr0HqZe9pQ==",
+  "dgSpecHash": "DC1hYHAr99FDPFjej4ElMZ5+KXy5gt/Ikj8biMaChjmsoApIa0la41aoTbZYWwBtN/14MlDFuRceRFc71tUcuw==",
   "success": true,
   "projectFilePath": "C:\\Users\\WinstonHsu\\OneDrive\\Desktop\\Github\\EShopMicroservice\\src\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\aspnetcore.healthchecks.npgsql\\8.0.1\\aspnetcore.healthchecks.npgsql.8.0.1.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\8.0.1\\aspnetcore.healthchecks.ui.client.8.0.1.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\8.0.1\\aspnetcore.healthchecks.ui.core.8.0.1.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\carter\\8.1.0\\carter.8.1.0.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\fastexpressioncompiler\\4.1.0\\fastexpressioncompiler.4.1.0.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
@@ -35,6 +38,8 @@
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\8.0.0\\microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512",
+    "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\8.0.0\\microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\8.0.0\\microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\WinstonHsu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",

@@ -1,3 +1,6 @@
+using HealthChecks.UI.Client;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Give the type of program.cs that means this class and give the assembly name when registering services into mediator.
@@ -14,7 +17,7 @@ builder.Services.AddCarter();
 
 builder.Services.AddMarten(opts =>
 {
-    opts.Connection(builder.Configuration.GetConnectionString("CatalogDb")!);
+    opts.Connection(builder.Configuration.GetConnectionString("Database")!);
 }).UseLightweightSessions();
 
 if (builder.Environment.IsDevelopment())
@@ -24,6 +27,9 @@ if (builder.Environment.IsDevelopment())
 
 builder.Services.AddExceptionHandler<CustomExceptionHandler>();
 
+builder.Services.AddHealthChecks()
+    .AddNpgSql(builder.Configuration.GetConnectionString("Database")!);
+
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
@@ -32,5 +38,11 @@ app.MapGet("/", () => "Hello World!");
 app.MapCarter();
 
 app.UseExceptionHandler(option => { });
+
+app.UseHealthChecks("/health", 
+    new HealthCheckOptions
+    {
+        ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+    });
 
 app.Run();

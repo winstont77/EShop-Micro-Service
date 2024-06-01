@@ -1,4 +1,3 @@
-C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Catalog.API.deps.json
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Catalog.API.runtimeconfig.json
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\appsettings.Development.json
@@ -10,10 +9,14 @@ C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Mart
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Carter.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\BuildingBlocks.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\MediatR.Contracts.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\FluentValidation.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\HealthChecks.NpgSql.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Npgsql.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\HealthChecks.UI.Client.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Mapster.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Weasel.Core.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Weasel.Postgresql.dll
-C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Npgsql.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\JasperFx.Core.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\JasperFx.CodeGeneration.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Polly.Core.dll
@@ -21,8 +24,8 @@ C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Newt
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\JasperFx.RuntimeCompiler.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\FastExpressionCompiler.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\OpenTelemetry.Api.dll
-C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\FluentValidation.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\HealthChecks.UI.Core.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Mapster.Core.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Microsoft.CodeAnalysis.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
@@ -55,5 +58,5 @@ C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\tr\M
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\obj\Debug\docker-c.35A3FFBA.Up2Date
-C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll

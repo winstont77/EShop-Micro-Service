@@ -1,15 +1,43 @@
 name: dockercompose7153522765796049939
 services:
-  catalogapi:
+  catalog.api:
     build:
       context: C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src
       dockerfile: Services/Catalog/Catalog.API/Dockerfile
-    container_name: catalogapi
+    depends_on:
+      catalogdb:
+        condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ConnectionStrings__CatalogDb: Host=catalogdb;Database=CatalogDb;Username=postgres;Password=postgres
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+      ConnectionStrings__Database: Server=catalogdb;Port=5432;Database=CatalogDb;User
+        Id=postgres;Password=postgres;Include Error Detail=true
+    image: catalogapi
     networks:
       default: null
+    ports:
+    - mode: ingress
+      target: 8080
+      published: "6000"
+      protocol: tcp
+    - mode: ingress
+      target: 8081
+      published: "6060"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\WinstonHsu\AppData\Roaming/Microsoft/UserSecrets
+      target: /home/app/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\WinstonHsu\AppData\Roaming/ASP.NET/Https
+      target: /home/app/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
   catalogdb:
     container_name: catalogdb
     environment:

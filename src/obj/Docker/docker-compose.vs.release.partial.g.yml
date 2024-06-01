@@ -1,7 +1,8 @@
 version: '3.4'
 
 services:
-  catalogapi:
+  catalog.api:
+    container_name: "Catalog.API"
     build:
       args:
         BUILD_CONFIGURATION: Release
