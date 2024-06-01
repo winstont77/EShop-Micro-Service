@@ -26,3 +26,7 @@ This project will use e-commerce to demonstrate microservices. In daily life, e-
   - FluentValidation
 - Container
   - docker
+
+## Functional Map
+
+![Image](https://i.imgur.com/SjBYVhY.png)
