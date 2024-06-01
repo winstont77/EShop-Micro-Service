@@ -18,3 +18,5 @@ This project will use e-commerce to demonstrate microservices. In daily life, e-
   - MediatR
   - Marten
   - Mapster
+- Container
+  - docker
