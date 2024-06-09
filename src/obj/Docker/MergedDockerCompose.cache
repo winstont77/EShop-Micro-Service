@@ -1,5 +1,25 @@
 name: dockercompose7153522765796049939
 services:
+  basketdb:
+    container_name: basketdb
+    environment:
+      POSTGRES_DB: BasketDb
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5433"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: postgres_basket
+      target: /var/lib/postgresql/data
+      volume: {}
   catalog.api:
     build:
       context: C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src
@@ -62,5 +82,7 @@ networks:
   default:
     name: dockercompose7153522765796049939_default
 volumes:
+  postgres_basket:
+    name: dockercompose7153522765796049939_postgres_basket
   postgres_catalog:
     name: dockercompose7153522765796049939_postgres_catalog
