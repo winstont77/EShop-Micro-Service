@@ -14,6 +14,8 @@ services:
     depends_on:
       basketdb:
         condition: service_started
+      discount.grpc:
+        condition: service_started
       distributedcache:
         condition: service_started
     entrypoint:
@@ -29,6 +31,7 @@ services:
         Id=postgres;Password=postgres;Include Error Detail=true
       ConnectionStrings__Redis: distributedcache:6379
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      GrpcSettings__DiscountUrl: https://discount.grpc:8081
       NUGET_FALLBACK_PACKAGES: ""
     image: basketapi:dev
     labels:

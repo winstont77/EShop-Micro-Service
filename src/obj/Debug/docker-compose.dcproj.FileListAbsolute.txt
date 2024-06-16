@@ -15,6 +15,9 @@ C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Disc
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\MediatR.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Marten.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Grpc.Net.ClientFactory.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Google.Protobuf.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Grpc.Core.Api.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\BuildingBlocks.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Carter.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\MediatR.Contracts.dll
@@ -29,8 +32,6 @@ C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Maps
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Microsoft.EntityFrameworkCore.dll
-C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Google.Protobuf.dll
-C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Grpc.Core.Api.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Grpc.AspNetCore.Server.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Microsoft.EntityFrameworkCore.Sqlite.dll
@@ -45,6 +46,7 @@ C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Fast
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\OpenTelemetry.Api.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\StackExchange.Redis.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Grpc.Net.Client.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Microsoft.Extensions.DependencyModel.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\HealthChecks.UI.Core.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Mapster.Core.dll
