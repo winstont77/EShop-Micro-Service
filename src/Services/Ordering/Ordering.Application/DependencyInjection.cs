@@ -20,6 +20,11 @@ public static class DependencyInjection
         //    config.AddOpenBehavior(typeof(LoggingBehavior<,>));
         //});
 
+        services.AddMediatR(cfg =>
+        {
+            cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
+        });
+
         return services;
     }
 }
