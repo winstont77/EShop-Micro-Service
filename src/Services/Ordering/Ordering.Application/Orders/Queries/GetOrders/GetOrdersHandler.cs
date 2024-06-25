@@ -6,7 +6,7 @@ namespace Ordering.Application.Orders.Queries.GetOrders;
 public class GetOrdersHandler(IApplicationDbContext dbContext)
     : IQueryHandler<GetOrdersQuery, GetOrdersResult>
 {
-    public Task<GetOrdersResult> Handle(GetOrdersQuery query, CancellationToken cancellationToken)
+    public async Task<GetOrdersResult> Handle(GetOrdersQuery query, CancellationToken cancellationToken)
     {
         // get orders with pagination
         // return result
