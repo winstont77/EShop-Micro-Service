@@ -3,7 +3,7 @@ using Ordering.Domain.ValueObjects;
 
 namespace Ordering.Infrastructure.Data.Extensions;
 
-public class InitialData
+internal class InitialData
 {
     public static IEnumerable<Customer> Customers =>
     new List<Customer>

@@ -11,12 +11,10 @@ public class OrderItemConfiguration : IEntityTypeConfiguration<OrderItem>
     {
         builder.HasKey(oi => oi.Id);
 
-        //primary key
         builder.Property(oi => oi.Id).HasConversion(
-            orderItemId => orderItemId.Value,
-            dbId => OrderItemId.Of(dbId));
+                                   orderItemId => orderItemId.Value,
+                                   dbId => OrderItemId.Of(dbId));
 
-        //One Product has many OrderItem
         builder.HasOne<Product>()
             .WithMany()
             .HasForeignKey(oi => oi.ProductId);

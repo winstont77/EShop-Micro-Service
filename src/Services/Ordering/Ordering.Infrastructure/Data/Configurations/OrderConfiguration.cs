@@ -13,20 +13,18 @@ public class OrderConfiguration : IEntityTypeConfiguration<Order>
         builder.HasKey(o => o.Id);
 
         builder.Property(o => o.Id).HasConversion(
-            orderId => orderId.Value,
-            dbId => OrderId.Of(dbId));
+                        orderId => orderId.Value,
+                        dbId => OrderId.Of(dbId));
 
-        //One customer has many order
         builder.HasOne<Customer>()
-            .WithMany()
-            .HasForeignKey(o => o.CustomerId)
-            .IsRequired();
+          .WithMany()
+          .HasForeignKey(o => o.CustomerId)
+          .IsRequired();
 
         builder.HasMany(o => o.OrderItems)
             .WithOne()
-            .HasForeignKey(o => o.OrderId);
+            .HasForeignKey(oi => oi.OrderId);
 
-        //EF Core 8 introduces the new Complex property 
         builder.ComplexProperty(
             o => o.OrderName, nameBuilder =>
             {
