@@ -32,6 +32,8 @@ C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\Services\Catal
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\Services\Catalog\Catalog.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\Services\Catalog\Catalog.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\Services\Catalog\Catalog.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\Services\Catalog\Catalog.API\bin\Debug\net8.0\Microsoft.FeatureManagement.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\Services\Catalog\Catalog.API\bin\Debug\net8.0\Microsoft.FeatureManagement.AspNetCore.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\Services\Catalog\Catalog.API\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\Services\Catalog\Catalog.API\bin\Debug\net8.0\Npgsql.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\Services\Catalog\Catalog.API\bin\Debug\net8.0\Npgsql.Json.NET.dll

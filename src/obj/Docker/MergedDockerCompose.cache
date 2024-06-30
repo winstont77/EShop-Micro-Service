@@ -167,6 +167,25 @@ services:
       published: "6379"
       protocol: tcp
     restart: always
+  messagebroker:
+    container_name: messagebroker
+    environment:
+      RABBITMQ_DEFAULT_PASS: guest
+      RABBITMQ_DEFAULT_USER: guest
+    hostname: ecommerce-mq
+    image: rabbitmq:management
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
+    restart: always
   orderdb:
     container_name: orderdb
     environment:
