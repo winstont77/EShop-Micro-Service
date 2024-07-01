@@ -46,7 +46,9 @@ This project will use e-commerce to demonstrate microservices. In daily life, e-
 
 ## Functional Map
 
-#### Catalog microservice which includes
+![Image](https://i.imgur.com/kaPvjqa.png)
+
+#### Catalog microservice which includes 
 * ASP.NET Core Minimal APIs and latest features of .NET8 and C# 12
 * Vertical Slice Architecture implementation with Feature folders and single .cs file includes different classes in one file
 * CQRS implementation using MediatR library
@@ -77,3 +79,7 @@ After docker compose all microservices, you can use the web application.
 ![Image](https://i.imgur.com/kjd91p1.png)
 
 ## Authors
+
+Winston Hsu
+[部落格](https://chi-keke.github.io/)
+[LinkedIn](https://www.linkedin.com/in/winston-syu-a90a8b214/)
