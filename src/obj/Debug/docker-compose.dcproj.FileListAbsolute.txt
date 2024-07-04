@@ -130,3 +130,11 @@ C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Yarp
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Yarp.ReverseProxy.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\System.IO.Hashing.dll
 C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\YarpApiGateway.pdb
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Shopping.Web.deps.json
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Shopping.Web.runtimeconfig.json
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Shopping.Web.staticwebassets.runtime.json
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Shopping.Web.exe
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Shopping.Web.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Refit.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Refit.HttpClientFactory.dll
+C:\Users\WinstonHsu\OneDrive\Desktop\Github\EShopMicroservice\src\bin\Debug\Shopping.Web.pdb
